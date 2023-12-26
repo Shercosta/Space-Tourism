@@ -1,0 +1,95 @@
+body {
+  color: #ffffff;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+.subheading-1 {
+  font-family: "Bellefair", serif;
+}
+
+h5,
+.subheading-2,
+.nav-text {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 150px;
+}
+
+h2 {
+  font-size: 100px;
+}
+
+h3 {
+  font-size: 56px;
+}
+
+h4 {
+  font-size: 32px;
+}
+
+h5 {
+  font-size: 28px;
+  letter-spacing: 4.75px;
+}
+
+.subheading-2 {
+  font-size: 14px;
+  letter-spacing: 2.35px;
+}
+
+.nav-text {
+  font-size: 16px;
+  letter-spacing: 2.7px;
+}
+
+.color-1 {
+  color: #0b0d17;
+}
+
+.color-2 {
+  color: #d0d6f9;
+}
+
+.color-3 {
+  color: #ffffff;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+}
+
+.square.color-1,
+.bg-color-1 {
+  background-color: #0b0d17;
+}
+
+.square.color-2,
+.bg-color-2 {
+  background-color: #d0d6f9;
+}
+
+.square.color-3,
+.bg-color-3 {
+  background-color: #ffffff;
+}
+
+.nav-logo {
+  max-width: 48px;
+  max-height: 48px;
+}
+
+.blur-bg {
+  backdrop-filter: blur(1rem);
+  opacity: 0.1;
+}
