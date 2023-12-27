@@ -95,4 +95,21 @@ h5 {
 
 .nav-opacity {
   opacity: 4%;
+  right: 0px;
+}
+
+/* .nav-item {
+  border: 1px solid rgba(255, 255, 255, 0);
+} */
+
+.nav-item:hover {
+  /* box-shadow: 0 4px 2px -2px rgba(255, 255, 255, 0.5); */
+  /* border-bottom: 1 px solid rgba(255, 255, 255, 0.5) !important; */
+  box-shadow: 0 0px black inset, 0 -2px rgba(255, 255, 255, 0.5) inset,
+    0px 0 blue inset, 0px 0 green inset;
+}
+
+.nav-item:active {
+  box-shadow: 0 0px black inset, 0 -2px rgba(255, 255, 255, 1) inset,
+    0px 0 blue inset, 0px 0 green inset;
 }
