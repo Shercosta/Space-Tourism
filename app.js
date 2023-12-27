@@ -10,6 +10,10 @@ app.get("/", (req, res) => {
   res.sendFile(htmx + "index.html");
 });
 
+app.get("/home", (req, res) => {
+  res.sendFile(htmx + "home.html");
+});
+
 app.listen(port, () => {
   console.log(`Example app listening on http://localhost:${port}`);
 });

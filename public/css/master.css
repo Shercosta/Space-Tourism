@@ -113,3 +113,16 @@ h5 {
   box-shadow: 0 0px black inset, 0 -2px rgba(255, 255, 255, 1) inset,
     0px 0 blue inset, 0px 0 green inset;
 }
+
+.explore {
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  border: none;
+}
+
+.explore:hover {
+  -moz-box-shadow: 0 0 176px rgba(255, 255, 255, 0.9);
+  -webkit-box-shadow: 0 0 176px rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 176px rgba(255, 255, 255, 0.9);
+}
