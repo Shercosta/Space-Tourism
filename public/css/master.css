@@ -1,6 +1,7 @@
 body {
   color: #ffffff;
   background-size: cover;
+  height: 100vh;
 }
 
 h1,
@@ -39,7 +40,7 @@ h4 {
 
 h5 {
   font-size: 28px;
-  letter-spacing: 4.75px;
+  letter-spacing: 4.72px;
 }
 
 .subheading-2 {
@@ -119,10 +120,26 @@ h5 {
   height: 274px;
   border-radius: 50%;
   border: none;
+  transition: 0.3s;
 }
 
 .explore:hover {
-  -moz-box-shadow: 0 0 176px rgba(255, 255, 255, 0.9);
-  -webkit-box-shadow: 0 0 176px rgba(255, 255, 255, 0.9);
-  box-shadow: 0 0 176px rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 0 77px rgba(255, 255, 255, 0.1);
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.h-fill {
+  flex: 1; /* This makes the content div take up the remaining space */
+  /* overflow: hidden; Hide any overflow content */
+  padding: 0 5rem 5rem;
+}
+
+.ratio-1-1 {
+  aspect-ratio: 1/1;
+  width: min-content;
 }
