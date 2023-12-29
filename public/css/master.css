@@ -43,6 +43,10 @@ h5 {
   letter-spacing: 4.72px;
 }
 
+.subheading-1 {
+  font-size: 28px;
+}
+
 .subheading-2 {
   font-size: 14px;
   letter-spacing: 2.35px;
@@ -134,12 +138,74 @@ h5 {
 }
 
 .h-fill {
-  flex: 1; /* This makes the content div take up the remaining space */
+  flex: 1;
+  /* This makes the content div take up the remaining space */
   /* overflow: hidden; Hide any overflow content */
-  padding: 0 5rem 5rem;
+  padding: 0 5rem;
 }
 
 .ratio-1-1 {
   aspect-ratio: 1/1;
   width: min-content;
 }
+
+.explore-button-parent {
+  padding-top: 4rem;
+}
+
+.fit {
+  max-width: fit-content;
+}
+
+.center-around {
+  display: grid;
+  place-items: center;
+  /* height: 100vh;  */
+  /* Adjust as needed */
+}
+
+.nav-number {
+  font-weight: bold;
+}
+
+/* medium screen */
+@media screen and (max-width: 1440px) and (max-height: 900px) {
+  h1 {
+    font-size: 150px;
+  }
+
+  h2 {
+    font-size: 80px;
+  }
+
+  h3 {
+    font-size: 56px;
+  }
+
+  h4 {
+    font-size: 32px;
+  }
+
+  h5 {
+    font-size: 20px;
+    letter-spacing: 3.38px;
+  }
+
+  .subheading-1 {
+    font-size: 28px;
+  }
+
+  .subheading-2 {
+    font-size: 14px;
+    letter-spacing: 2.36px;
+  }
+
+  .nav-text {
+    font-size: 14px;
+    letter-spacing: 2.36px;
+  }
+}
+
+/* tablet screen */
+
+/* mobile screen */
