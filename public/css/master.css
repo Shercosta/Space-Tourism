@@ -168,6 +168,10 @@ h5 {
   font-weight: bold;
 }
 
+.pick {
+  opacity: 0.25;
+}
+
 /* medium screen */
 @media screen and (max-width: 1440px) and (max-height: 900px) {
   h1 {

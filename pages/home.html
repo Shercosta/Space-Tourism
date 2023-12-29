@@ -14,7 +14,14 @@
   <div class="col center-around">
     <div class="fit">
       <button class="explore">
-        <h4>EXPLORE</h4>
+        <h4
+          hx-get="/destination-a"
+          hx-trigger="click"
+          hx-target="#content"
+          hx-swap="innerHTML"
+        >
+          EXPLORE
+        </h4>
       </button>
     </div>
   </div>

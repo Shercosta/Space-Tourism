@@ -14,6 +14,10 @@ app.get("/home", (req, res) => {
   res.sendFile(htmx + "home.html");
 });
 
+app.get("/destination-a", (req, res) => {
+  res.sendFile(htmx + "destination-a.html");
+});
+
 app.listen(port, () => {
   console.log(`Example app listening on http://localhost:${port}`);
 });
